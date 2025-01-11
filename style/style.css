@@ -69,7 +69,7 @@ main section{
 .navbar{
     display: flex;
     justify-content: space-between;
-    margin: 24px 35px;
+    margin: 24px 50px;
 }
 
 .nav-title{
