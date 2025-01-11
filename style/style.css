@@ -10,7 +10,7 @@ main section{
     max-width: 1280px;
     margin: 0 auto;
     border-radius: 24px;
-
+    margin-bottom: 80px;
 }
 
 /* shared styles */
@@ -25,7 +25,31 @@ main section{
     border: 0;
 }
 
+.section-title{
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: bold;
+}
+.section-subtitle{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0e0e0ecb;
+}
 
+.section-description{
+    color: #0e0e0e91;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.pillar-card{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(14, 14, 14, 0.096);
+    border-radius: 16px;
+    padding: 24px;
+    line-height: 35px;
+}
 /* navbar styles */
 .navbar{
     display: flex;
@@ -78,4 +102,64 @@ main section{
 }
 .banner-container  .primary-btn{
     margin-top: 25px;
+}
+
+/* Pillars card section styles  */
+.pillars-container{
+    display: flex;
+    gap: 24px;
+    padding-top: 32px;
+}
+
+
+.pillar-card h5 , p{
+    margin-top: 10px;
+}
+
+/* Vision section styles */
+.vision-container{
+    display: flex;
+    gap: 24px;
+    padding: 32px 0px;
+}
+.vision-context h2{
+    margin-bottom: 30px;
+}
+.vision-card1{
+    background-color: rgba(84, 144, 245, 0.2);
+    border: 0;
+}
+.vision-card2{
+    background-color: rgb(198, 228, 214);
+    border: 0;
+}
+.vision-card3{
+    background-color: rgb(247, 235, 207);
+    border: 0;
+}
+
+.vision-btn1{
+    background-color: #5490F5;
+    color: white;
+    border-radius: 8px;
+    padding: 11px 20px;
+    border: 0;
+
+}
+.vision-btn2{
+    background-color: rgb(9, 161, 92);
+    color: white;
+    border-radius: 8px;
+    padding: 11px 20px;
+    border: 0;
+}
+.vision-btn3{
+    background-color: rgb(255, 194, 57);
+    color: white;
+    border-radius: 8px;
+    padding: 11px 20px;
+    border: 0;
+}
+.vision button{
+    margin-top: 60px;
 }
