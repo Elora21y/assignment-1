@@ -23,6 +23,7 @@ main section{
     background-color: #006A50;
     padding: 17px 34px;
     border: 0;
+    margin-top: 30px;
 }
 
 .section-title{
@@ -218,4 +219,27 @@ main section{
     padding: 10px 14px;
     border-radius: 4px;
 
+}
+
+/* recent news section styles */
+.news{
+    display: flex;
+    /* align-items: center; */
+    gap: 32px;
+    background-color: white;
+    border-radius: 24px;
+    padding: 48px;
+    margin-top: 25px;
+    line-height: 48px;
+}
+.news-img img{
+    border-radius: 24px;
+}
+.news-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+.news-context img{
+    margin-bottom: -8px;
 }
